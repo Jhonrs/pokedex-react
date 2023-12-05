@@ -12,3 +12,35 @@
 
     }
 }
+
+.item{
+    border-radius: 15px;
+    background-color: red;
+    width: 260px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    &__id{
+        text-align: end;
+    }
+    &__name{
+
+    }
+    &__type{
+        padding: 5px 15px;
+        margin: 5px 0;
+        border-radius: 38px;
+        background-color: aqua;
+        width: fit-content;
+    }
+    &__img{
+        width: 96px;
+        height: 96px;
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+        margin: 10px;
+    }
+}

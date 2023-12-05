@@ -1,12 +1,20 @@
-import React from 'react'
+import React from "react";
+import { PokemonItem } from "../components/PokemonItem";
 
 export const PokemonList = () => {
     return (
-        <section>
-            <h1>PokemonList</h1>
+            <section>
+                <h1>PokemonList</h1>
 
-            <div>Pokemon item</div>
-
-        </section>
+                <ul>
+                    <PokemonItem />
+                    <PokemonItem />
+                    <PokemonItem />
+                    <PokemonItem />
+                    <PokemonItem />
+                    <PokemonItem />
+                    <PokemonItem />
+                </ul>
+            </section>
     );
-}
+};
